@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d", &num, &bit_position);
 
     int bit_mask = 1 << bit_position;
-    int result = num&bit_mask;
+    int result = num & bit_mask;
 
     if(result != 0) {
         printf("%d", bit_position);
