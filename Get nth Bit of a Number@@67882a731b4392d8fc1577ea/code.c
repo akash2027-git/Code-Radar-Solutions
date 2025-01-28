@@ -8,9 +8,9 @@ int main() {
     int result = num & bit_mask;
 
     if(result != 0) {
-        printf("%d", bit_position);
+        printf("1\n");
     } else {
-        printf("%d", bit_position);
+        printf("2\n");
     }
 
     return 0;
