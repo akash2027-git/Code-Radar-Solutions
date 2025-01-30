@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int number;
-    scanf("%d", &number);
+    float number;
+    scanf("%f", &number);
 
     for(int i = 31; i >= 0; i--) {
         int bit = (number>>i)&1;
