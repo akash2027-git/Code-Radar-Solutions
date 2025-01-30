@@ -16,7 +16,7 @@ int main() {
     scanf("%d", &number);
     int position = getLowestSetBitPositionNumber(number);
     if(position == -1) {
-        
+        printf(""); 
     } else {
         printf("%d\n", position);
     }
