@@ -5,7 +5,7 @@ int getLowestSetBitPositionNumber(int number) {
 
     int position = 0;
     while((number&1)==0) {
-        number >> 1;
+        number >>= 1;
         position++;
     }
     return position;
