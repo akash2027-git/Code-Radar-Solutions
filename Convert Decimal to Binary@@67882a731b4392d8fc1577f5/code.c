@@ -13,9 +13,5 @@ int main() {
             printf("%d", bit);
         }
     }
-    if(started == 0) {
-        printf("0")
-    }
-    printf("\n");
     return 0;
 }
