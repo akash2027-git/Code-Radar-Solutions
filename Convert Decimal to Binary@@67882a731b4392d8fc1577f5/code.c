@@ -4,7 +4,7 @@ int main() {
     int number;
     scanf("%d", &number);
     int started = 0;
-    for(int i = 31; i > 0; i--) {
+    for(int i = 31; i >= 0; i--) {
         int bit = (number>>i) & 1;
         if(bit == 1) {
             started = 1;
