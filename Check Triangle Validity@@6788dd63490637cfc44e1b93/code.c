@@ -6,7 +6,7 @@ int main() {
     if((s1+s2)>s3 && (s2+s3)>s1 && (s3+s1)>s2) {
         printf("Valid");
     } else {
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
