@@ -5,7 +5,7 @@ int main() {
     if(sp-cp>0) {
         printf("Profit\n");
     } else if (sp - cp<0) {
-        printf("Loss\n")
+        printf("Loss\n");
     } else {
         printf("No Profit No Loss\n");
     }
