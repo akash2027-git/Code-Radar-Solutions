@@ -45,4 +45,5 @@ int main() {
                 printf("Invalid month");
         }
     }
+    return 0;
 }
