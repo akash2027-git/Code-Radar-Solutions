@@ -3,7 +3,7 @@
 int main() {
     int month;
     scanf("%d", &month);
-    while (month<=12) {
+    while (month<13) {
         switch (month) {
             case 1:
                 printf("31");
