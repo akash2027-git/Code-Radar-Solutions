@@ -2,9 +2,10 @@
 
 int main() {
     int n;
+    scanf("%d", &n);
     int multiples = 0;
     for(int i = 1; i <= n; i++) {
-        if(n%i == 0 && n%n == 0) {
+        if(n%i == 0) {
             multiple++;
         }
         if(multiples == 2) {
