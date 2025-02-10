@@ -1,45 +1,23 @@
-// #include <stdio.h>
-
-// int main() {
-//     int a, b;
-//     char op;
-//     scanf("%d %d %c", &a, &b, &c);
-//     if(op == '+') {
-//         printf("%d", a+b);
-//     } else if(op == '-') {
-//         printf("%d", a-b);
-//     } else if(op == '*') {
-//         printf("%d", a*b);
-//     } else if(op == '/') {
-//         if(b!=0) {
-//             printf("%d", a/b);
-//         }
-//     } else {
-//         printf("error");
-//     }
-//     return 0;
-// }
-
 #include <stdio.h>
 
 int main() {
     int a, b;
     char op;
-    scanf("%d %d %c", &a, &b, &op);
+    scanf("%d %d %c", &a, &b, &c);
     if(op == '+') {
-        printf("%d", a + b);
+        printf("%d", a+b);
     } else if(op == '-') {
-        printf("%d", a - b);
+        printf("%d", a-b);
     } else if(op == '*') {
-        printf("%d", a * b);
+        printf("%d", a*b);
     } else if(op == '/') {
-        if(b != 0) {
-            printf("%d", a / b);
+        if(b!=0) {
+            printf("%d", a/b);
         } else {
-            printf("error");
+            printf("error")
         }
     } else {
-        printf("Invalid operator");
+        printf("error");
     }
     return 0;
 }
