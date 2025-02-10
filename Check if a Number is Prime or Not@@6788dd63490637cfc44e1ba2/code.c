@@ -8,11 +8,11 @@ int main() {
         if(n%i == 0) {
             multiple++;
         }
-        if(multiples == 2) {
-            printf("Prime\n");
-        } else {
-            printf("Not Prime\n");
-        }
+    }
+    if(multiples == 2) {
+        printf("Prime\n");
+    } else {
+        printf("Not Prime\n");
     }
     return 0;
 }
