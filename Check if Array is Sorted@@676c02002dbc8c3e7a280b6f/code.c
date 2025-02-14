@@ -13,12 +13,12 @@ bool isSorted(int arr[], int n) {
 
 int main() {
     int n;
-    scanf("%d", &n);
+    scanf("%d ", &n);
     // Declare an Array of size n
     int arr[n];
 
     // Prompt the user to enter the elements of the Array 
-    for(int i = 1; i < a+1; i++) {
+    for(int i = 1; i < n+1; i++) {
         scanf("%d ", &arr[i])
     }
 
