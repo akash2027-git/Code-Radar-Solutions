@@ -19,7 +19,7 @@ int main() {
 
     // Prompt the user to enter the elements of the Array 
     for(int i = 1; i < n+1; i++) {
-        scanf("%d ", &arr[i])
+        scanf("%d ", &arr[i]);
     }
 
     // Check is the Array is sorted
