@@ -18,7 +18,7 @@ int main() {
     int arr[n];
 
     // Prompt the user to enter the elements of the Array 
-    for(int i = 1; i < n+1; i++) {
+    for(int i = 0; i < n; i++) {
         scanf("%d ", &arr[i]);
     }
 
