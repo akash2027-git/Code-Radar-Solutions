@@ -14,10 +14,10 @@ int main() {
     }
 
     for(int i = 1; i <= n; i++) {
-        for(int j = n-i; j >= 1; j--) {
+        for(int j = n-i; j >= i; j--) {
             printf(" ");
         }
-        for(int j = n-1; j >= 1; j--) {
+        for(int j = n; j >= 1; j--) {
             printf("*");
         }
         printf("\n");
