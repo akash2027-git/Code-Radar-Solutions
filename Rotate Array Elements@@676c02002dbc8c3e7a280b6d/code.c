@@ -11,7 +11,7 @@ void reverseArray(int arr[], int start, int end) {
     }
 }
 
-void rotateArray(int arr[], int n; int k) {
+void rotateArray(int arr[], int n, int k) {
     k%=n;
     if (k < 0) {
         k+=n;
@@ -27,13 +27,13 @@ int main() {
     scanf("%d", &n);
     int arr[n];
     for(int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d\n", &arr[i]);
     }
     int k;
     scanf("%d", &k);
     rotateArray(arr, n, k);
     for(int i = 0; i < n; i++) {
-        printf("%d", arr[i]);
+        printf("%d\n", arr[i]);
     }
 
     return 0;
