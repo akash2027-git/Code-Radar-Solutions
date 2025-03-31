@@ -9,7 +9,3 @@ void fib_sequence(int n) {
         second = next;
     }
 }
-
-int main() {
-
-}
